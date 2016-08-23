@@ -1,0 +1,26 @@
+body {
+    background-color: lightgrey;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+        
+}
+.container {
+    border: 0.5em double #000;
+    width: 900px;
+    margin: 0px auto;
+    background-color: white;
+   
+}
+.content {
+    width: 60%;
+    margin: 0px auto;   
+    padding: 0;
+}
+.wrapper2 {
+    width: 75%;
+    margin: 0 auto;
+    
+    height: 130px;
+}

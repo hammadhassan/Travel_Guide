@@ -1,0 +1,78 @@
+body {
+    background-color: lightgrey;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+        
+}
+.back {
+    border: 0.5em double #000;
+    width: 900px;
+    margin: 0px auto;
+    background-color: white;
+   
+}
+.wrapper {
+    width: 60%;
+    margin: 0px auto;   
+    padding: 0;
+}
+.wrapper2 {
+    width: 75%;
+    margin: 0 auto;
+    
+    height: 130px;
+}
+.logo {
+    position: relative;
+    left: 300px;
+    
+    background: transparent;
+}w
+.nav {
+    margin: 0 auto;
+   
+    border-bottom: 1.5px solid black;
+    
+}
+ul {
+    border-top: 3px solid black;
+ 
+    text-align: center;
+}
+li {
+    display: inline;
+    margin: 0 20px;
+    text-transform: uppercase;
+}
+li:hover {
+    color: red;
+}
+.timeline {
+    
+    margin: 0px auto;
+    
+
+}
+.tour {
+    margin: 0px auto;
+    width: 100%
+    
+}
+.para {
+    margin: 5px auto;    
+    
+}
+.box {
+    width: 50%;
+    border: 2px solid darkgrey;
+    margin: 1px auto;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+p {
+    text-align: center;
+    margin: 0px auto;
+    padding: 1px;
+}
