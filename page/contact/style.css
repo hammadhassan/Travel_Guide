@@ -1,26 +1,31 @@
 body {
-    background-color: lightgrey;
     font-family: monospace;
     margin: 0;
     padding: 0;
-    margin-top: 10px;
-        
+    margin-top: 10px;      
 }
 .container {
-    border: 0.5em double #000;
-    width: 900px;
+    /*border: 0.5em double #000;*/
+    width: 600px;
     margin: 0px auto;
     background-color: white;
-   
+    height: 504px; 
+    overflow: scroll;
 }
-.content {
-    width: 60%;
-    margin: 0px auto;   
-    padding: 0;
+h1 {
+    margin: 10px auto;
+    font-size: 24px;
+    font-style: oblique;
+    color: royalblue;
+    width: 25%
 }
-.wrapper2 {
-    width: 75%;
-    margin: 0 auto;
-    
-    height: 130px;
+a {
+    text-decoration: none;
+    color: seagreen;
+    font-size: 18px;
+    font-style: oblique;
+}
+ul {
+    display: inline;
+    list-style: none;
 }
