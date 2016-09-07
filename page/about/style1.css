@@ -3,7 +3,8 @@ body {
     font-family: monospace;
     margin: 0;
     padding: 0;
-    margin-top: 10px;      
+    margin-top: 10px;
+        
 }
 .back {
     border: 0.5em double #000;
@@ -42,33 +43,9 @@ li {
     margin: 0 20px;
     text-transform: uppercase;
 }
-li:hover {
+/*li:hover {
     color: red;
-}
-.timeline {
-    margin: 0px auto;
-}
-.tour {
-    margin: 0px auto;
-    width: 100%;
-    padding-top: 11px;
-}
-.para {
-    margin: 5px auto;    
-    
-}
-.box {
-    width: 50%;
-    border: 2px solid darkgrey;
-    margin: 1px auto;
-    padding: 5px;
-    margin-bottom: 10px;
-}
-p {
-    text-align: center;
-    margin: 0px auto;
-    padding: 1px;
-}
+}*/
 li > a {
     text-decoration: none;
     color: #000;
@@ -80,22 +57,13 @@ a:hover {
 a:active {
     color: darkcyan;
 }
+/*.container {
+    border: 0.5em double #000;
+    width: 900px;
+    margin: 0px auto;
+    background-color: white;
+}*/
 iframe {
     margin-top: 11px;
-}
-.drop {
-    display: none;
-    text-decoration: none;
-    color: #000;
-    background-color: chartreuse;
-    position: absolute;
-    text-align: left;
-    width: 80px;
-}
-ul.drop>li {
-    display: block;
-}
-
-#down:hover .drop{
-    display: inline-block!important;  
+    width: 99%;
 }
