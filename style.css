@@ -5,6 +5,24 @@ body {
     padding: 0;
     margin-top: 10px;      
 }
+@media screen and (min-width: 380px ) {
+    body {
+        background-color: royalblue;
+        font-size: 50px;
+    }
+}
+@media screen and (min-width: 420px) {
+    body {
+        background-color: green;
+        font-size: 40px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    body {
+        background-color: darkgoldenrod;
+        font-size: 35px;
+    }
+}
 .back {
     border: 0.5em double #000;
     width: 900px;
